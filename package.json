@@ -1,0 +1,22 @@
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "client": "npm start --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirzon47/task-app.git"
+  },
+  "keywords": [],
+  "author": "Nirzon Taru Karmakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirzon47/task-app/issues"
+  },
+  "homepage": "https://github.com/nirzon47/task-app#readme"
+}
